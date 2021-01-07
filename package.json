@@ -14,6 +14,7 @@
  "bugs": {
   "url": "https://github.com/css-count/gulp-css-count/issues"
  },
+ "main": "index.js",
  "engines": {
   "node": "*"
  },
