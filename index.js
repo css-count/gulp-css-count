@@ -91,9 +91,11 @@ module.exports = function() {
 
 		// output
 		if (fileSize > 288) {
-			console.log('\n[File Size Caution] ' + color.cyan(file.path) + ' ' + color.yellow(fileSize +' kB') + '\n');
-		} else if (countSelectors > 4095) {
-			console.log('\n[Selector Caution] ' + color.cyan(file.path) + ' ' + color.yellow(countSelectors) + '\n');
+			console.log('[File Size Caution] ' + color.cyan(file.path) + ' ' + color.yellow(fileSize +' kB'));
+		}
+
+		if (countSelectors > 4095) {
+			console.log('[Selector Caution] ' + color.cyan(file.path) + ' ' + color.yellow(countSelectors));
 		}
 
 		callback(null, file);
