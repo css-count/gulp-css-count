@@ -1,0 +1,10 @@
+.idea
+node_modules
+.ftppass
+.log
+*.css.map
+.sass-cache/
+JSON
+JSON.map
+.DS_Store
+*.DS_Store
